@@ -21,6 +21,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Docs', link: '/docs/setup/getting-started' },
       { text: 'Use the app', link: 'https://app.trackmyracer.live' },
     ],
   }

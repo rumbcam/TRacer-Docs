@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Use the app
       link: https://app.trackmyracer.live
+    - theme: brand
+      text: Docs
+      link: /docs/setup/getting-started
     - theme: alt
       text: Donate
       link: https://www.paypal.com/donate/?business=VDBU2WHFFH8CA&no_recurring=1&item_name=Support+development+of+TRacer+to+help+volunteers+quickly+send+race+data%2C+ensuring+participant+safety.&currency_code=USD
