@@ -24,5 +24,53 @@ export default defineConfig({
       { text: 'Docs', link: '/docs/setup/getting-started' },
       { text: 'Use the app', link: 'https://app.trackmyracer.live' },
     ],
+
+    // sidebar: [
+    //   {
+    //     text: 'Docs',
+    //     items: [
+    //       // { text: 'Getting started', link: '/docs' },
+    //     ]
+    //   }
+    // ],
+    // sidebar: {
+    //   '/docs/': [
+    //     {
+    //       text: 'TRacer Setup Guide',
+    //       // items: [
+    //       //   { text: 'Getting started', link: '/docs' },
+    //       //   { text: 'Manual setup', link: '/docs/manualSetup' },
+    //       //   { text: 'JSON data file schema', link: '/docs/raceDataFile' },
+    //       // ]
+    //     }
+    //   ]
+    // }
+    sidebar: {
+      '/docs/': [
+        {
+          text: 'TRacer Setup Guide',
+          items: [
+            { text: 'Getting Started', link: '/docs/setup/getting-started' },
+            { text: 'Manual Setup', link: '/docs/setup/manual-setup' },
+            { text: 'Upload File Setup', link: '/docs/setup/uploadFile' },
+          ],
+        },
+        {
+          text: 'Using TRacer',
+          items: [
+            { text: 'Entering Racer Times', link: '/docs/usage/enteringTimes' },
+            { text: 'Sending and Receiving Data', link: '/docs/usage/sendingReceiving' },
+            { text: 'Viewing Records', link: '/docs/usage/viewingRecords' },
+          ],
+        },
+        {
+          text: 'Advanced Options',
+          items: [
+            { text: 'Changing Aid Station or Event', link: '/docs/advanced/switchingStationEvent' },
+            { text: 'JSON Data File Schema', link: '/docs/advanced/jsonSchema' },
+          ],
+        },
+      ],
+    }
   }
 })
