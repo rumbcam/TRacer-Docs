@@ -5,7 +5,7 @@ layout: home
 
 hero:
   name: "TRacer"
-  tagline: An app to send racer times to net control over radio, letting you focus on racer safety while quickly logging times with just a phone and radio
+  tagline: An app to send racer times to race control over radio, letting you focus on racer safety while quickly logging times with just a phone and radio
   actions:
     - theme: brand
       text: Use the app

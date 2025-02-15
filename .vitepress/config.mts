@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TRacer",
-  description: "An app meant to save time sending racer times to net control over radio",
+  titleTemplate: ':title | TRacer',
+  description: "An app meant to save time sending racer times to race control over radio",
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],

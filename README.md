@@ -1,6 +1,6 @@
 # TRacer
 
-An app to send racer times to net control over radio, letting you focus on racer safety while quickly logging times with just a phone and radio
+An app to send racer times to race control over radio, letting you focus on racer safety while quickly logging times with just a phone and radio
 
 ---
 ### 👤 Racer Safety First
