@@ -8,11 +8,11 @@ hero:
   tagline: An app to send racer times to race control over radio, letting you focus on racer safety while quickly logging times with just a phone and radio
   actions:
     - theme: brand
-      text: Use the app
-      link: https://app.trackmyracer.live
-    - theme: brand
       text: Docs
       link: /docs/setup/getting-started
+    - theme: alt
+      text: Use the app
+      link: https://app.trackmyracer.live
     - theme: alt
       text: Donate
       link: https://www.paypal.com/donate/?business=VDBU2WHFFH8CA&no_recurring=1&item_name=Support+development+of+TRacer+to+help+volunteers+quickly+send+race+data%2C+ensuring+participant+safety.&currency_code=USD
